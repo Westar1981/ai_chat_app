@@ -23,6 +23,15 @@ To run the AI Chat App, use the following command:
 python app.py
 ```
 
+### AI Model Integration
+The AI Chat App uses OpenAI's GPT-3 model to generate responses. Make sure to set your OpenAI API key in the `app.py` file.
+
+### Endpoints
+- `GET /`: Returns a welcome message.
+- `POST /query`: Handles user queries and returns AI-generated responses.
+  - Request body: `{"query": "your question"}`
+  - Response: `{"response": "AI response to: your question"}`
+
 ### Endpoints
 - `GET /`: Returns a welcome message.
 - `POST /query`: Handles user queries and returns AI-generated responses.
