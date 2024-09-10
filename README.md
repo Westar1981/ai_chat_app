@@ -23,6 +23,12 @@ To run the AI Chat App, use the following command:
 python app.py
 ```
 
+### Endpoints
+- `GET /`: Returns a welcome message.
+- `POST /query`: Handles user queries and returns AI-generated responses.
+  - Request body: `{"query": "your question"}`
+  - Response: `{"response": "AI response to: your question"}`
+
 ## Research and Development Plan
 For detailed information on the research and development plan, please refer to the [R&D_Plan.md](./R&D_Plan.md) file.
 
